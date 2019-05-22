@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+     .box{
+         position: relative;
+         float: left;
+         padding: 20px;
+     }
+    </style>
+</head>
+<body>
+<div class="box">
+    <p>城市: <%=city%></p>
+    <p>今日天气</p>
+    <p>温度: <%=temperature%></p>
+    <p>天气: <%=info%></p>
+    <p>风向: <%=direct%></p>
+</div>
+
+<div class="box">
+    <p><%=future[0].date%></p>
+    <p>温度: <%=future[0].temperature%></p>
+    <p>天气: <%=future[0].weather%></p>
+    <p>风向: <%=future[0].direct%></p>
+</div>
+
+<div class="box">
+    <p><%=future[1].date%></p>
+    <p>温度: <%=future[1].temperature%></p>
+    <p>天气: <%=future[1].weather%></p>
+    <p>风向: <%=future[1].direct%></p>
+</div>
+
+<div class="box">
+    <p><%=future[2].date%></p>
+    <p>温度: <%=future[2].temperature%></p>
+    <p>天气: <%=future[2].weather%></p>
+    <p>风向: <%=future[2].direct%></p>
+</div>
+
+<div class="box">
+    <p><%=future[3].date%></p>
+    <p>温度: <%=future[3].temperature%></p>
+    <p>天气: <%=future[3].weather%></p>
+    <p>风向: <%=future[3].direct%></p>
+</div>
+</body>
+</html>
